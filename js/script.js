@@ -13,7 +13,7 @@ function changeTheme(){
 
 function changeYoutube(){
   if(document.getElementById('bt-youtube')){
-    window.open("https://google.com");  
+    window.open("https://youtube.com/c/CarlosAntonioExcel");  
   }
 }
 
