@@ -1,5 +1,5 @@
 function changeTheme(){
-	if(document.getElementById('bt-theme').innerHTML==='Dark Theme'){
+	if(document.getElementById('bt-theme').innerHTML==='Theme'){
 		document.body.style.background='#555';
 		document.body.style.color='white';
 		document.getElementById('bt-theme').innerHTML='Light Theme'
