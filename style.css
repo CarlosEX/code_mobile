@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&display=swap');
+
+html,
+button {
+  font-family: Quicksand, sans-serif;
+}
+
+body {
+  background: white;
+  color: #555;
+  text-align: center;
+}
+
+.logo {
+  margin-top: 30%;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.brackets {
+  font-family: Advent Pro, sans-serif;
+}
+
+.left {
+  color: tomato;
+}
+
+.right {
+  color: dodgerblue;
+}
+
+.description {
+  padding: 20px;
+  font-size: 18px;
+  background: inherit;
+  color: inherit;
+}
+
+#bt-theme {
+  margin-top: 10px;
+  background: dodgerblue;
+  color: white;
+  width: 80%;
+  height: 60px;
+  font-size: 20px;
+  outline: none;
+  border: 5px solid deepskyblue;
+  border-radius: 5px;
+}
+
+#bt-youtube {
+  margin-top: 10px;
+  background: red;
+  color: white;
+  width: 80%;
+  height: 60px;
+  font-size: 20px;
+  outline: none;
+  border: 5px solid darkorange;
+  border-radius: 5px;
+}
+
+#bt-theme:active {
+  transform: scale(0.95);
+}
+
+#bt-youtube:active {
+  transform: scale(0.95);
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 300px;
+}
+
