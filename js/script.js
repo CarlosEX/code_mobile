@@ -17,3 +17,6 @@ function changeYoutube(){
   }
 }
 
+function changeCsharp(){
+    window.open("https://go.hotmart.com/M62696916C");  
+}
